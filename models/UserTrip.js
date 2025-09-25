@@ -51,7 +51,7 @@ const UserTrip = sequelize.define("UserTrip", {
     allowNull: false,
     references: {
       model: PickupPoint,
-      key: "pickup_id",
+      key: "pickup_point_id",
     },
   },
 });
